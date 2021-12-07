@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title></title>
-  <link href="./styles/styles.css" rel="stylesheet" />
+    <meta charset="utf-8">
+    <title></title>
+    <link href="./styles/styles.css" rel="stylesheet" />
 </head>
 
 <link rel="stylesheet" href="mystyle.css">
@@ -11,15 +12,37 @@
 <body>
     <div class="app--wrapper">
 
-        <div class="block--header"></div>
-        
+        <div class="block--header">
+            <div class="header--wrapper">
+                <div class="header--title">Tea Commerce Starter Kit</div>
+                <div class="header--nav">
+                    <ul class="nav--items">
+                        <li class="item--selected">Home</li>
+                        <li>Cart content</li>
+                        <li>Expensive Yachts</li>
+                        <li>Very expensive Yachts</li>
+                    </ul>
+                </div>
+
+                <div class="header--options">
+                    <ul class="nav--items">
+                        <li class="item--cost">Quantity: <span class="item--cost-value">0</span></li>
+                        <li class="item--cost">Total: <span class="item--cost-value">$0.00</span></li>
+                        <li><button class="btn--got-to-cart">Go to cart</button></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
         <div class="block--body">
             <div class="block--main-image"></div>
             <div class="block--items"></div>
         </div>
-        
+
         <div class="block--footer"></div>
-        
+
     </div>
 </body>
+
 </html>

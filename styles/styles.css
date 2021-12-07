@@ -1,8 +1,71 @@
 
 
+body {
+ margin: 0px;
+ font-family: "Calibri";
+}
+
 .app--wrapper { background-color: #ffffff; }
 
-.block--header { }
+.block--header {
+    height: 50px;
+    background-color:#f8f8f8;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.block--header .header--wrapper {
+    width: 1170px;
+    margin: 0px auto;
+    content: con;
+}
+
+.block--header .header--title {
+    font-size: 20px;
+    float: left;
+    padding: 15px;
+    color: #777777;
+}
+
+.header--nav { float: left; }
+
+.header--options { float: right; }
+
+.nav--items { padding-left: 0px; }
+
+.header--nav .nav--items .item--selected { background-color: #e7e7e7; }
+
+.nav--items li {
+    font-size: 15px;
+    color: #555555;
+    display: inline;
+    padding: 17px;
+}
+
+.btn--got-to-cart {
+    background-color: #428bca;
+    border-color: #357ebd;
+    color: #fff;
+    box-shadow: none;
+    border: none;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+.nav--items li:hover {
+    color: #222222;
+    cursor: pointer;
+}
+
+.nav--items .item--cost {
+    padding: 0px;
+}
+
+.nav--items .item--cost-value {
+    color: #ffffff;
+    background-color: #777;
+    border-radius: 14px;
+    padding: 1px 7px;
+}
 
 
 .block--body { }
