@@ -74,7 +74,9 @@ body {
 .block--footer { }
 
 
-.block--main-image { }
+.block--main-image {
+    padding: 20px 0px;
+ }
 
 
 .block--items { }
